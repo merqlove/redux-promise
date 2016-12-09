@@ -1,6 +1,6 @@
 {
   "name": "redux-promise",
-  "version": "0.5.3",
+  "version": "1.0.0",
   "description": "FSA-compliant promise middleware for Redux.",
   "main": "lib/index.js",
   "scripts": {
@@ -23,17 +23,22 @@
   "author": "Andrew Clark <acdlite@me.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^5.6.14",
-    "babel-core": "^5.6.15",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
     "babel-eslint": "^5.0.0",
-    "chai": "^3.0.0",
-    "chai-as-promised": "^5.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-plugin-transform-regenerator": "^6.20.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-latest": "^6.16.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
     "eslint": "^0.24.0",
     "eslint-config-airbnb": "0.0.6",
-    "mocha": "^2.2.5",
-    "sinon": "^1.15.4"
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6"
   },
   "dependencies": {
-    "flux-standard-action": "^0.6.1"
+    "flux-standard-action": "^1.0.0"
   }
 }

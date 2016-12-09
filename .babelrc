@@ -1,4 +1,9 @@
 {
-  "stage": 0,
-  "loose": "all"
+  "presets": [
+	"latest"
+  ],
+  "plugins": [
+	  ["babel-plugin-transform-object-rest-spread", { "useBuiltIns": true }],
+	  ["babel-plugin-transform-regenerator"]
+  ]
 }
