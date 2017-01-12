@@ -4,6 +4,7 @@
   ],
   "plugins": [
 	  ["babel-plugin-transform-object-rest-spread", { "useBuiltIns": true }],
-	  ["babel-plugin-transform-regenerator"]
+	  ["babel-plugin-transform-regenerator"],
+    ["transform-es2015-modules-umd"]
   ]
 }
