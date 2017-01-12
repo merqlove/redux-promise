@@ -2,6 +2,7 @@
   "presets": [
 	"latest"
   ],
+  "moduleId": "promiseMiddleware",
   "plugins": [
 	  ["babel-plugin-transform-object-rest-spread", { "useBuiltIns": true }],
 	  ["babel-plugin-transform-regenerator"],
